@@ -11,14 +11,13 @@ def prime? (number)
       
        if number % i == 0 
           result = false
-          #puts i
           break
 		   else
 		  	  result = true
        end 
         	i += 1 
+
      end 
-    
   end
-  return result
+ return result
 end
