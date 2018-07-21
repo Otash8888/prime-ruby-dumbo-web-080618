@@ -16,14 +16,10 @@ def prime? (number)
        if number % i == 0 
       result = false
       #puts i
-     
       break
-	        
 		    else
-        	
 		  	 result = true
-         
-        	end 
+        end 
         	i += 1 
       	  end 
     
