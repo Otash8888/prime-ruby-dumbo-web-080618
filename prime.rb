@@ -4,7 +4,7 @@ def prime? (number)
     
     result = false 
   
-  elsif number == 2 || number == 3 || number == 5 || number == 7
+  elsif number == 2 || number == 3 || number == 5 || number== 7
     
     result = true
   
